@@ -1,10 +1,9 @@
 import random
 
 base = ('piedra', 'papel', 'tijera')
-base = random.sample(base, len(base))
-print(base)
-#print(type(base))
-computer = base[1]
+#base = random.sample(base, len(base))
+#computer = base[1]
+computer = random.choice(base)
 
 user = input("piedra, papel o tijera => ")
 user = user.lower()
